@@ -16,7 +16,7 @@
 
 <!-- Hero Section -->
 <section class="text-center py-5">
-    <h1 class="display-4 fw-bold">
+    <h1 class="display-4 fw-bold project-title">
         SHIFT-RL: Sensor-driven Hierarchical Information Fusion Transformer for BEV-based Maneuvering in Dense Multi-lane Environments
     </h1>
 
@@ -51,6 +51,7 @@
 <!-- Abstract -->
 <section id="abstract" class="container my-5">
     <h2>Abstract</h2>
+    <img src="assets/img/overview.png" class="img-fluid rounded">
     <p>Imitation learning is widely used in end‑to‑end (E2E) autonomous driving, but it is reported to be challenging when tasks require long‑horizon planning or face substantial out-of-distribution (OOD) shifts. Reinforcement learning (RL) based planning is a promising alternative, yet monolithic policies are brittle under sparse rewards and large state spaces. We introduce SHIFT‑RL (Sensor‑driven Hierarchical Information Fusion Transformer for RL), a hierarchical framework that operates on LiDAR‑based bird’s‑eye‑view (BEV) states, fuses spatiotemporal cues with an information‑fusion Transformer, and couples hierarchical policies with curriculum learning. A high‑level policy selects tactical maneuvers; a low‑level policy, conditioned on that choice, outputs vehicle speed, decomposing complex decisions into stable subproblems. We train and evaluate SHIFT‑RL in dense multi‑lane settings that require long‑horizon planning and exhibit significant OOD shifts. Ablations of the hierarchy and curriculum, and comprehensive comparisons against monolithic RL, rule‑based methods, and an imitation learning baseline show that SHIFT‑RL achieves the highest success rate and the lowest collision rate across all evaluated environments. These results indicate that combining an information‑fusion Transformer with hierarchical RL and curriculum learning substantially improves stability and generalization for challenging BEV‑based maneuvering.</p>
 </section>
 
